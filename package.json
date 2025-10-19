@@ -3,6 +3,9 @@
   "private": true,
   "version": "1.0.0",
   "description": "Dependencies for Vercel Serverless Functions.",
+  "scripts": {
+    "build": "echo 'No build step required. Installing dependencies for serverless functions only.'"
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.43.4"
   }
